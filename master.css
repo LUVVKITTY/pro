@@ -8,9 +8,6 @@
     color: hotpink;
     box-shadow: 0 4px 8px 0 #ffaac7, 0 6px 20px 0 #ffaac7;
     
-     
-
-
 }
 .hed{
     text-align: center;
@@ -144,17 +141,24 @@
   .links{
       text-align: center;
   display: block;
+  font-size: 30px;
   }
 
+
+  
+
   .choose {
-  text-align: center;             /* يخلي كل حاجة في النص */
-  background-color: #ff66b2;    /* خلفية وردية فاتحة */
+  text-align: center;             
+  background-color: #ff66b2;    
   padding: 20px;
   margin: 20px auto;
   width: fit-content;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  /*عايزه اكبر الخط*/
+ 
+}
+.choose{
+  font-size: 30px;
 }
 
 .choose label {
@@ -171,6 +175,7 @@
   color: deeppink;
   font-weight: bold;
   cursor: pointer;
+  font-size: 30px;
 }
 
 .choose input[type="submit"] {
@@ -183,6 +188,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 30px;
 }
 
 .choose input[type="submit"]:hover {
@@ -285,7 +291,7 @@ tr:nth-child(even) td {
   border-radius: 10px;
   width: 400px;
   font-family: Arial, sans-serif;
-  font-size: 22px; /* خط كبير */
+  font-size: 50px; /* خط كبير */
   font-weight: bold;
   color: deeppink;
 }
