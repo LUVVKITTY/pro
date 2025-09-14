@@ -97,6 +97,14 @@
     transition: 0.3s;
     box-shadow: inset 0 0 15px #ff66b2, 0 0 15px #ff66b2;
 }
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .links a {
   color: white;
 }
