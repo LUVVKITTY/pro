@@ -1,0 +1,310 @@
+.background{
+     background-image: url('download (3).jpeg');
+     background-position: cover;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    color: hotpink;
+    box-shadow: 0 4px 8px 0 #ffaac7, 0 6px 20px 0 #ffaac7;
+     
+
+
+}
+.hed{
+    text-align: center;
+    font-family: 'Courier New', Courier,;
+    font-weight: bold;
+     font-size: 2rem;
+ 
+}
+.hed,p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(207, 45, 99) ;
+
+}
+
+
+
+.h1{
+    background-image: url('Pink aura wallpaper.jpeg');
+   
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Courier New', Courier,;
+    font-weight: bold;
+     font-size: 2rem;
+    color: deeppink;
+    box-shadow: 0 4px 8px 0 #ffaac7, 0 6px 20px 0 #ffaac7;
+    background-size: cover;
+     
+}
+.search-container {
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+
+.search-container input[type="text"] {
+  width: 300px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-container button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: lightpink;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+   
+}
+
+.search-container button:hover {
+  background-color: palevioletred;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 405px;
+    margin-right: 405px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border-width: 10px;
+    padding: 20px;
+} 
+.img img{
+    border-radius: 20px;
+    outline: 10px solid ;
+    outline-color: #fc6bac;
+    box-shadow: inset 0 0 10px #ff66b2, 0 0 10px #ff66b2;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.img img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: inset 0 0 15px #ff66b2, 0 0 15px #ff66b2;
+}
+.links a {
+  color: white;
+}
+.links a:hover {
+  color:rgb(204, 29, 87);
+      transform: scale(1.5);
+    transition: 0.3s;
+}
+.links {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+    
+  }
+  .links a{
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .span {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .links a {
+  display: inline-block;
+  }
+  .links{
+      text-align: center;
+  display: block;
+  }
+
+  .choose {
+  text-align: center;             /* يخلي كل حاجة في النص */
+  background-color: #ff66b2;    /* خلفية وردية فاتحة */
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  /*عايزه اكبر الخط*/
+}
+
+.choose label {
+  color:  white;
+  margin-right: 10px;
+
+}
+
+.choose select {
+  padding: 8px 12px;
+  border: 2.5px solid deeppink;
+  border-radius: 15px;
+  background-color: white;
+  color: deeppink;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.choose input[type="submit"] {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: 2.5px ;
+  border-radius: 15px;
+  background-color: deeppink;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choose input[type="submit"]:hover {
+  background-color: hotpink;
+}
+
+.us {
+  max-width: 600px;
+  min-width: 50px;
+  margin: 30px auto;
+  font-family: "Times New Roman", serif;
+
+}
+
+.us dl {
+  margin: 0;
+  padding: 0;
+}
+
+.us dt,
+.us dd {
+  margin: 0;
+  padding: 0;
+}
+
+.us dt {
+  font-size: 22px;
+  font-weight: bold;
+  color: deeppink;
+  background: white;
+
+}
+
+.us dd {
+  font-size: 30px; /* كبرت الخط */
+  color: #222;
+  margin-top: 5px;
+  background: white; 
+;
+}
+
+/* كل dt + dd في بوكس منفصل */
+
+
+.us dt,
+.us dd {
+  padding: 15px 20px;
+  border: 5px solid deeppink;
+  border-radius: 50px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  color: deeppink;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+th, td {
+  border: 2px solid deeppink;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  background-color: #ffaac7;
+  color: black;
+}
+
+td {
+  background-color: #fff0f5;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background-color: #ffe6f2;
+}
+
+.rate {
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffe6f2; /* بينك فاتح */
+  border: 2px solid deeppink;
+  border-radius: 10px;
+  width: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 22px; /* خط كبير */
+  font-weight: bold;
+  color: deeppink;
+}
+
+.rate p {
+  margin-bottom: 15px;
+}
+
+.rate label {
+  margin-right: 10px;
+}
+
+.rate input[type="number"],
+.rate input[type="submit"] {
+  padding: 10px;
+  font-size: 20px; /* خط كبير */
+  border-radius: 5px;
+  border: 2px solid deeppink;
+}
+
+.rate input[type="submit"] {
+  background-color: deeppink;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.rate input[type="submit"]:hover {
+  background-color: hotpink;
+}
+
